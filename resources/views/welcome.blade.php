@@ -7,12 +7,8 @@
     <title>Document</title>
  </head>
  <body>
-    <ul>
-      <li><a href="<?= route('home') ?>">Home</a></li>
-      <li><a href="<?= route('blog') ?>">Blog</a></li>
-      <li><a href="<?= route('about') ?>">About</a></li>
-      <li><a href="<?= route('contact') ?>">Contact</a></li>
-    </ul>
-
+   @include('partials.navigation'){{--include es  una directiva de blade por logica asume que las carpetas estan en view utiliza un punto  --}}
+   <h1>Home</h1>
+    
  </body>
  </html>

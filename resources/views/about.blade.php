@@ -7,6 +7,7 @@
     <title>About</title>
  </head>
  <body>
+  @include('partials.navigation'){{--include es  una directiva de blade por logica asume que las carpetas estan en view utiliza un punto  --}}
    <h1>About</h1>
  </body>
  </html>
