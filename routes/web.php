@@ -1,18 +1,16 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\Route;/*  */
 
 /*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
+ 
 */
 
+ 
 Route::get('/', function () {
     return view('welcome');
 });
+Route::view('/', 'welcome');/* ruta y vista */
+Route::view('/contacto', 'contact');
+Route::view('/blog', 'blog');
+Route::view('/about', 'about');/* definimos las rutas de tipo get y devolvemos las vistas que se encuentra en las view */
