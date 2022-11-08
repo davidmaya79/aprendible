@@ -7,6 +7,6 @@
     <title>About</title>
  </head>
  <body>
-    hola
+   <h1>About</h1>
  </body>
  </html>

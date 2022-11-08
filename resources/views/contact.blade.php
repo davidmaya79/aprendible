@@ -7,6 +7,6 @@
     <title>Contact</title>
  </head>
  <body>
-    hola
+    <h1>Contacto</h1>
  </body>
  </html>

@@ -7,6 +7,6 @@
     <title>Blog</title>
  </head>
  <body>
-    hola
+    <h1>Blog</h1>
  </body>
  </html>
