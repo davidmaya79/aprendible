@@ -1,8 +1,12 @@
 {{-- @component('components.layout') --}}
- <x-layout title="Home" meta-Description="Home meta description">
+ <x-layouts.app 
+ title="Home"
+ meta-Description="Home meta description"
+  
+ >
   
 
   <h1>Home</h1>    
   
- </x-layout>
+ </-xlayouts.app>{{--asume que los componentes estan dentro de la carpeta component ,las x apuntan al componente --}}
 {{--  @endcomponent --}}
