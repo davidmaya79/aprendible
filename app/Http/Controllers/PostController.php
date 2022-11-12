@@ -18,6 +18,16 @@ class PostController extends Controller
     {
         return view('posts.show', ['post' => $post]);
     }
+
+    public function create()
+    {
+        return  view('posts.create');
+    }
+
+    public function store()
+    {
+        return 'Process the form';
+    }
 }
 
 // php artisan make:controller PostController -i ------------> Crea un controller invocable (de un solo metodo)

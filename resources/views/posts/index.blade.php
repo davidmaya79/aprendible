@@ -4,6 +4,7 @@
  meta-description="Blog meta description"
 >
     <h1>Blog</h1>
+    <a href="{{ route('posts.create') }}">Create new Post</a>
 {{-- @dump($posts) --}}
     @foreach($posts as $post)
         <h2>
