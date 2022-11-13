@@ -6,9 +6,13 @@ content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=
 </head>
 <body>
 
-   <x-layouts.navigation />
+<x-layouts.navigation />
 
-   
+@if(session('status'))
+<div> 
+    {{ session('status') }}
+</div>
+@endif
 
    {{ $slot }}
 
